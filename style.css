@@ -1,0 +1,96 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Pangolin', cursive;
+}
+
+
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.flex-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+
+
+
+.hero{
+
+ 
+
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.sub-hero{
+    background-color: rgb(245, 176, 96);
+   height: 500px;
+   width: 700px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  0px rgba(0, 0, 0, 0.425);
+}
+.boxes{
+gap: 40px;
+}
+.box{
+width: 100px;
+height: 200px;
+background: #000;
+border-radius: 5px;
+transition: 0.2s ease-in-out;
+
+}
+
+
+.box:hover{
+    cursor: pointer;
+    scale: 1.5;
+    box-shadow: 10px 10px 10px  0px rgba(0, 0, 0, 0.425);
+    }
+    
+
+
+    @media screen and (max-width: 768px) {
+        .sub-hero{
+            width: 70%;
+            height: 80%;
+            padding: 5% 8%;
+        }
+        .boxes{
+            
+            height: 50%;
+            width: 100%;
+        flex-direction: column;
+    
+            }
+            .box{
+                height: 25%;
+                width:100%;
+        
+                
+                }
+    }

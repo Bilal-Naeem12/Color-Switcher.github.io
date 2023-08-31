@@ -12,7 +12,7 @@ e.addEventListener("click",()=>{
     setTimeout(()=>{
         text.innerText = e.id
 
-    },500)
+    },200)
 
 })
 })
